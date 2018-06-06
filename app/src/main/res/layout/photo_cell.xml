@@ -8,9 +8,11 @@
     android:padding="10dp">
 
     <com.facebook.drawee.view.SimpleDraweeView
-        android:layout_width="150dp"
+        android:layout_width="wrap_content"
         android:layout_height="150dp"
-        android:scaleType="fitCenter"
+        android:layout_gravity="center"
+        fresco:viewAspectRatio="1"
+        fresco:actualImageScaleType="fitCenter"
         android:id="@+id/photo"
         fresco:placeholderImage="@drawable/placeholder"
         />
